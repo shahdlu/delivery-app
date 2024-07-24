@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/order"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"
+        android:text="Customer Details"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="8dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:hint="Address"
+        android:inputType="textPostalAddress"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/editTextCreditCard"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:hint="Credit Card Number"
+        android:inputType="number"
+        android:maxLength="16"
+        android:padding="8dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:background="#321D1D"
+        android:text="Order" />
+
+</LinearLayout>
